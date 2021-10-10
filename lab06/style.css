@@ -7,3 +7,6 @@ h1, h2 {
 .evenrow {
     background-color: darkgrey;
 }
+h1 {
+    font-size: 2em;
+}
