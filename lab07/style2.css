@@ -3,11 +3,17 @@ body {
     background-color: #FAEEE0;
 }
 text {
-    color: #212121
+    color: #212121;
 }
 link {
-   color:#916BBF
+   color:#916BBF;
 }
 nav {
-    background-color: #D5D5D5;
+    background-color: #FFA400;
+}
+nav a {
+    color: #F6F6F6;
+}
+nav a:hover {
+    background-color: #c56824;
 }
