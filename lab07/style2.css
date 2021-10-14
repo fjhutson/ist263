@@ -10,6 +10,8 @@ link {
 }
 nav {
     background-color: #FFA400;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 nav a {
     color: #F6F6F6;
