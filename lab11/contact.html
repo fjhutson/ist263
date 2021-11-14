@@ -40,13 +40,21 @@
             order: 2;
             background-color: lightpink;
             }
-            .form {order: 1;}
-            .h1 {margin-left: 20px;}
+            .form {
+                order: 1;
+            }
+            .h1 {
+                margin-left: 20px;
+            }
+            #skip:focus {
+            left: 10px;
+            }
             
 		</style>
     </head>
 
     <body>
+        <a id="skip" href="#maincontent">Skip to Content</a>
         <nav>
             <a href="index.html">Home | </a>
             <a href="skills.html">Skills | </a>
@@ -54,6 +62,7 @@
         </nav>
         <h1>Contact</h1>
 
+        <a id="maincontent"></a>
         <div>
         <div class="address">
             <article class="article1">
