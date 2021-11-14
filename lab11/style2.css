@@ -1,0 +1,36 @@
+body {
+    color: #C37B89;
+    background-color: #FAEEE0;
+}
+h1 {
+    color: #a2416B;
+}
+text {
+    color: #212121;
+    font-size: 2em;
+}
+link {
+   color:#916BBF;
+}
+nav {
+    background-color: #FFA400;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #F6F6F6;
+}
+nav a:hover {
+    background-color: #c56824;
+}
+.biopic {
+    max-width: 100%;
+}
+@media only screen and (max-width: 800px) {
+    .box1 {display: none;}
+}
+
+@media only screen and (min-width: 800px) {
+    .box2 {display: none;}
+}
+     
