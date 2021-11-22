@@ -29,14 +29,22 @@
             margin-right: auto;
         }
         .banner {width: 100%;}
+        .nav {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; 
+            top: 0; 
+            width: 100%; 
+        }
         .footer {
-            position: fixed;
+            position:static;
             left: 0;
             bottom: 0;
             width: 100%;
             background-color: rgb(208, 111, 233);
             color: white;
-            text-align: center;}
+            text-align: center;
+        }
 
         
 
@@ -45,11 +53,13 @@
 </head>
 <body>
     <a id="skip" href="#maincontent">Skip to Content</a>
-    <nav>
+    <div class="nav">
+        <nav>
         <a href="project_5.html">Home | </a>
         <a href="about.html">About | </a>
         <a href="articles.html">Articles</a>
-    </nav>
+        </nav>
+</div>
 
     <h1>Fight Against Fast Fashion</h1>
     <a id="maincontent"></a>
