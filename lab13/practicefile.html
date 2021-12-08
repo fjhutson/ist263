@@ -15,8 +15,14 @@
             width: 1200px;
             margin: auto; /* margin auto is centering this container */        
         }
-        #bigimages {margin-right: 100px;}
-        #planetinfo {padding: 100px;}
+        #bigimages {
+            margin-right: 100px;
+           
+        }
+        #planetinfo {
+            padding: 100px;
+            float: right;
+        }
         #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
         /* ^^ margin auto is centering this container */
         #mercurythumb, #venusthumb, #earththumb, #marsthumb, #jupiterthumb, #saturnthumb, #uranusthumb, #neptunethumb 
@@ -43,6 +49,31 @@
         #neptuneinfo {
             display: none;
         }
+        #venus {
+            display:none;
+        }
+        #earth {
+            display: none;
+        }
+        #saturn {
+            display: none;
+        }
+        #mars {
+            display: none;
+        }
+        #jupiter {
+            display: none;
+        }
+        #uranus {
+            display: none;
+        }
+        #neptune{
+            display: none;
+        }
+        #planetinfo {
+            float: left;
+        }
+      
     </style>
     <script>
        
@@ -66,7 +97,6 @@
             <h2>Mercury</h2>
             <p>Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the planets in the Solar System. It is named after the Greek god Hermes (Ερμής), translated into Latin Mercurius Mercury, god of commerce, messenger of the gods, mediator between gods and mortals.</p>
         </div>
-        <div section="otherplanets">
         <div id="venusinfo">
             <h2>Venus</h2>
             <p>Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows and can be, on rare occasion, visible to the naked eye in broad daylight. Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a bit before dawn. Venus orbits the Sun every 224.7 Earth days. </p>
@@ -94,7 +124,6 @@
         <div id="neptuneinfo">
             <h2>Neptune</h2>
             <p>Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus.</p>
-        </div>
         </div>
     </div>
     <div id="thumbnails">
